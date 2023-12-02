@@ -7,8 +7,7 @@ function minNumber(num){
     for(let i of num){
       if(minNum < num[i])               //cheak condition
         minNum = num[i]                 //set the value of minNum
-        
-    }
+     }
     
   return minNum;
   }
